@@ -1,0 +1,126 @@
+/* BEM Methodology */
+body {
+    font-family: 'Pacifico', cursive;
+    line-height: 1.5;
+    margin: 5;
+    padding: 5;
+    background-color: #5ee2f4;
+    color: #131313;
+}
+
+.header {
+    background-color: #008080; /* Color de fondo de la cabecera */
+    padding: 2;
+    text-align: center;
+    color: white;
+}
+
+.header__content {
+    display: flex;
+    align-items: center;
+    justify-content: left; /* Centra el contenido horizontalmente */
+}
+
+.header__logo {
+    display: flex;
+    max-width: 100px; /* Tamaño máximo de la imagen */
+    border-radius: 100px;
+}
+
+.header__nav {
+    margin-top: 1rem;
+}
+
+.nav__list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav__item {
+    margin: 0 1rem;
+}
+
+.nav__link {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.nav__link:hover {
+    text-decoration: underline;
+}
+
+.section {
+    padding: 2rem;
+    margin: 2rem auto;
+    max-width: 1000px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.section__title {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.about__description, .services__list {
+    text-align: center;
+}
+
+.services__list {
+    list-style: none;
+    padding: 0;
+}
+
+.services__item {
+    background-color: #f887e7;
+    color: white;
+    padding: 1rem;
+    margin: 0.5rem 0;
+    border-radius: 15px;
+}
+
+.contact__form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact__label {
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+.contact__input {
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+}
+
+.contact__button {
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: #008080;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-family:'Pacifico', cursive;
+}
+
+.contact__button:hover {
+    background-color: #006666;
+}
+
+.footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #008080;
+    color: white;
+    margin-top: 1rem;
+}

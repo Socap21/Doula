@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Socap21">
+    <meta name="keywords" content="doula, parto, maternidad, salud">
+    <meta name="description" content="Página web de Tu Doula Diana, servicios de acompañamiento durante el embarazo y el parto.">
+    <title>Tu Doula Diana</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+    <p style="font-family: 'Pacifico', cursive;">Bienvenid@ a la pagina de Tu Doula Diana.</p>
+    <header class="header">
+        <div class="header__content">
+            <img src="images/Tu Doula Diana.png" alt="Logo Tu Doula Diana" class="header__logo">
+        </div>
+        <nav class="header__nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#about" class="nav__link">Acerca de</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">Servicios</a></li>
+                <li class="nav__item"><a href="#contact" class="nav__link">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about" class="section about">
+        <h2 class="section__title">Acerca de</h2>
+        <p class="about__description">Tu Doula Diana ofrece acompañamiento personalizado durante el embarazo, parto, y postparto...</p>
+    </section>
+
+    <section id="services" class="section services">
+        <h2 class="section__title">Servicios</h2>
+        <ul class="services__list">
+            <li class="services__item">Acompañamiento durante el embarazo</li>
+            <li class="services__item">Asistencia en el parto</li>
+            <li class="services__item">Soporte postparto</li>
+        </ul>
+    </section>
+
+    <section id="contact" class="section contact">
+        <h2 class="section__title">Contacto</h2>
+        <form class="contact__form">
+            <label for="name" class="contact__label">Nombre:</label>
+            <input type="text" id="name" class="contact__input" required>
+
+            <label for="email" class="contact__label">Correo Electrónico:</label>
+            <input type="email" id="email" class="contact__input" required>
+
+            <label for="message" class="contact__label">Mensaje:</label>
+            <textarea id="message" class="contact__input" rows="5" required></textarea>
+
+            <button type="submit" class="contact__button">Enviar</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 Tu Doula Diana. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
